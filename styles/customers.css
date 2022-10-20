@@ -1,0 +1,13 @@
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 81px;
+  width: 1140px;
+  margin: auto;
+}
+
+.customers__logo {
+  filter: brightness(0);
+}
