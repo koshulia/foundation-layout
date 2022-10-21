@@ -1,3 +1,5 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
 @import 'header.scss';
 @import 'common.scss';
 @import 'footer.scss';
@@ -13,15 +15,14 @@
 html {
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
-  color: #2b292d;
+  color: $text-primary-color;
 }
+
 .page {
   width: 100%;
   overflow-x: hidden;
-}
 
-@media screen and (min-width: 400px) {
-  .page {
+  @include for-large-up {
     width: 1400px;
     margin: auto;
     min-height: 100vh;
