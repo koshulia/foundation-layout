@@ -7,6 +7,31 @@
   font-weight: 700;
   border: none;
   border-radius: 2px;
+
+  @include for-large-down {
+    width: 100%;
+  }
+}
+
+.learn-more-btn {
+  background-color: #ffffff;
+  color: #3040c4;
+  width: 158px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+  margin-top: 15px;
+
+  @include for-large-down {
+    width: 100%;
+  }
+
+  @include for-large-up {
+    margin-left: 10px;
+    margin-top: 0;
+  }
 }
 
 .hide_desktop {
