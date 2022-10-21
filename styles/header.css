@@ -16,6 +16,12 @@
   margin-right: 75px;
 }
 
+/* @media screen and (max-width: 400px) {
+  .navigation {
+    display: none;
+  }
+} */
+
 .navigation__item {
   color: #2b292d;
   text-decoration: none;
