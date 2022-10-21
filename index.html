@@ -19,9 +19,9 @@
     />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/headline.css" />
-    <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/customers.css" />
     <link rel="stylesheet" href="styles/features.css" />
@@ -48,7 +48,10 @@
               >Library<i class="navigation__arrow"></i
             ></a>
           </nav>
-          <button class="action-button">Get started</button>
+          <button class="action-button header__button">Get started</button>
+          <button class="header__menu-button">
+            <span class="header__menu-icon"></span>
+          </button>
         </header>
 
         <!-- Headline -->
@@ -61,8 +64,12 @@
               based on their behaviors.
             </p>
             <div class="headline__actions">
-              <button class="action-button">Get started</button>
-              <button class="headline__learn-more-btn">Learn more</button>
+              <button class="action-button headline__action-btn">
+                Get started
+              </button>
+              <button class="headline__learn-more-btn headline__action-btn">
+                Learn more
+              </button>
             </div>
           </div>
 
@@ -165,6 +172,19 @@
                 <div class="logo__description">Startup landing template</div>
               </div>
             </div>
+            <div class="logo-vertical">
+              <img
+                class="logo-vertical__image"
+                src="img/icon-dark.png"
+                alt="logo"
+              />
+              <div class="logo-vertical__text">
+                <div class="logo-vertical__name">Foundation</div>
+                <div class="logo-vertical__description">
+                  Startup landing template
+                </div>
+              </div>
+            </div>
             <p class="footer__description">
               Foundation is a website template for startups and small teams. It
               helps to build a website in no time.
@@ -178,6 +198,7 @@
               <img src="img/google-play.png" alt="Google Play Download" />
             </div>
           </div>
+          <div class="footer__line hide_desktop"></div>
           <div class="additional-navigation">
             <div class="additional-navigation__column nav-links">
               <h3 class="nav-links__title">Product</h3>
@@ -189,7 +210,7 @@
                 <li class="nav-links__list-item">Virtual Inbox</li>
               </ul>
             </div>
-            <div class="nav-links">
+            <div class="nav-links additional-navigation__column">
               <h3 class="nav-links__title">Company</h3>
               <ul class="nav-links__list">
                 <li class="nav-links__list-item">About Foundation</li>
@@ -200,7 +221,7 @@
             </div>
           </div>
         </div>
-        <div class="footer__line"></div>
+        <div class="footer__line hide_mobile"></div>
         <div class="footer-links">
           <nav class="terms">
             <a href="#" class="terms__item">Terms</a>
