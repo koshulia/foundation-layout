@@ -1,5 +1,5 @@
 .audience {
-  background-color: #00a1c611;
+  background-color: $color-light;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -88,7 +88,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    width: 290px;
+    min-width: 290px;
     height: 300px;
     font-weight: 700;
     font-size: 22px;
@@ -99,7 +99,7 @@
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 8px;
 
-    &_active {
+    &:hover {
       background-color: #3141c5;
       color: #ffffff;
     }
