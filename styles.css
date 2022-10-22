@@ -48,7 +48,7 @@
 .header__menu-icon {
   width: 18px;
   height: 13px;
-  background-image: url("img/icon-hamburger.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
   display: inline-block;
 }
 .header .logo__description {
@@ -88,7 +88,7 @@
   font-weight: 700;
 }
 .navigation__arrow {
-  background-image: url("img/arrow.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
   display: inline-block;
   height: 5px;
   width: 8px;
@@ -123,7 +123,7 @@
 
 .action-button {
   background-color: #3040c4;
-  color: #ffffff;
+  color: #fff;
   width: 160px;
   height: 48px;
   font-size: 18px;
@@ -138,7 +138,7 @@
 }
 
 .learn-more-btn {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #3040c4;
   width: 158px;
   height: 48px;
@@ -593,6 +593,11 @@
   .audience__big-title {
     margin-top: 24px;
     width: 555px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
   }
 }
 .audience__description-text {
@@ -645,13 +650,13 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  background-color: #ffffff;
+  background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
 .audience__card:hover {
-  background-color: #3141c5;
-  color: #ffffff;
+  background-color: #3142c6;
+  color: #fff;
 }
 .audience__card:first-child {
   margin-top: 0;
@@ -661,7 +666,7 @@
 }
 @media (min-width: 1400px) {
   .audience__card {
-    width: 262px;
+    min-width: 262px;
     margin: 0;
     margin-right: 30px;
   }
@@ -669,6 +674,9 @@
     margin-bottom: 0;
     margin-right: 0;
   }
+}
+.audience__button {
+  color: #000000;
 }
 
 .order {
@@ -697,12 +705,16 @@
   }
 }
 .order__title {
-  text-align: center;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
   margin-top: 40px;
+}
+@media (max-width: 1399px) {
+  .order__title {
+    text-align: center;
+  }
 }
 .order__text {
   margin: 0;
@@ -721,7 +733,7 @@
   font-size: 18px;
   line-height: 13px;
   text-align: center;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
   height: 48px;

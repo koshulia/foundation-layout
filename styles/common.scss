@@ -1,6 +1,6 @@
 .action-button {
   background-color: #3040c4;
-  color: #ffffff;
+  color: $color-white;
   width: 160px;
   height: 48px;
   font-size: 18px;
@@ -14,7 +14,7 @@
 }
 
 .learn-more-btn {
-  background-color: #ffffff;
+  background-color: $color-white;
   color: #3040c4;
   width: 158px;
   height: 48px;

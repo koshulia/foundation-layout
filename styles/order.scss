@@ -24,12 +24,15 @@
   }
 
   &__title {
-    text-align: center;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.25px;
     margin-top: 40px;
+
+    @include for-large-down {
+      text-align: center;
+    }
   }
 
   &__text {
@@ -51,7 +54,7 @@
     font-size: 18px;
     line-height: 13px;
     text-align: center;
-    background: #ffffff;
+    background: $color-white;
     border: 1px solid rgba(43, 41, 45, 0.2);
     border-radius: 2px;
     height: 48px;
@@ -87,6 +90,6 @@
   }
 
   &__terms-link {
-    color: $text-color-blue;
+    color: $color-blue;
   }
 }
