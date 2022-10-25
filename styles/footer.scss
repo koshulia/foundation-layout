@@ -1,16 +1,15 @@
 .footer {
   display: flex;
-  margin-top: auto;
   flex-direction: column;
+  margin-top: auto;
 
   &__description {
     display: none;
-    line-height: 26px;
-    font-size: 18px;
     width: 360px;
     margin-top: 26px;
+    line-height: 26px;
+    font-size: 18px;
     color: $text-secondary-color;
-    width: 360px;
 
     @include for-large-up {
       display: block;
@@ -18,10 +17,10 @@
   }
 
   &__line {
-    border-top: 1px solid $text-primary-color;
     width: 100%;
-    opacity: 0.1;
     margin-top: 40px;
+    border-top: 1px solid $text-primary-color;
+    opacity: 0.1;
 
     @include for-large-up {
       margin: 0;
@@ -40,23 +39,23 @@
 }
 
 .footer-navigation {
-  margin: 0;
   display: flex;
   flex-direction: column;
+  margin: 0;
 
   @include for-large-up {
+    flex-direction: row;
     width: 1140px;
     height: 338px;
     margin-right: auto;
     margin-left: auto;
-    flex-direction: row;
   }
 }
 
 .downloads {
-  margin: 25px 15px 0 15px;
   display: flex;
   justify-content: center;
+  margin: 25px 15px 0 15px;
 
   @include for-large-up {
     justify-content: left;
@@ -70,10 +69,10 @@
 }
 
 .additional-navigation {
-  margin-left: 15px;
-  margin-right: 15px;
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
 
   @include for-large-up {
     flex-direction: row;
@@ -95,35 +94,34 @@
   width: 265px;
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-
-    margin: 0;
   }
 
   &__list {
     margin: 0;
     padding: 0;
+    margin-top: 18px;
     font-size: 18px;
     line-height: 30px;
     color: $text-secondary-color;
     list-style-type: none;
-    margin-top: 18px;
   }
 }
 
 .footer-links {
-  margin-left: 15px;
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 
   @include for-large-up {
     flex-direction: row;
-    width: 1140px;
-    margin: 0 auto;
     align-items: center;
+    width: 1140px;
     height: 50px;
+    margin: 0 auto;
   }
 }
 
@@ -132,9 +130,9 @@
   font-size: 14px;
 
   &__item {
+    margin-right: 22px;
     text-decoration: none;
     color: $text-secondary-color;
-    margin-right: 22px;
   }
 }
 

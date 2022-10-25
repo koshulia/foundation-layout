@@ -6,31 +6,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 106px;
+    flex-direction: row;
     width: 1140px;
     margin: auto;
-    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 106px;
   }
 
   &__row {
     display: flex;
 
     @include for-large-up {
-      flex: 1;
       justify-content: space-around;
+      flex: 1;
     }
   }
 
   &__item {
-    height: 94px;
-    width: 105px;
-    border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
+    height: 94px;
+    width: 105px;
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
 
     &:last-child {
       border-right: none;
