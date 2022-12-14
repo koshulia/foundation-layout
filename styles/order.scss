@@ -1,6 +1,7 @@
 .order {
   padding: 50px 15px;
   background-color: $color-light;
+  width: 100%;
 
   @include for-large-up {
     display: flex;
@@ -10,7 +11,20 @@
   }
 
   &__details {
-    max-width: 555px;
+    width: 100%;
+    @include for-large-up {
+      max-width: 555px;
+    }
+  }
+
+  &__illustration-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    @include for-large-up {
+      max-width: 269px;
+    }
   }
 
   &__illustration {
