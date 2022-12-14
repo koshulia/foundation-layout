@@ -1,6 +1,6 @@
 # Foundation Layout Project
 ## [Site link](https://koshulia.github.io/foundation-layout/)
-Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
+Layout supports mobile (up-to-1399) and desktop (above 1400) versions
 ## The tech stack is:
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
