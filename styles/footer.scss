@@ -106,8 +106,12 @@
     margin-top: 18px;
     font-size: 18px;
     line-height: 30px;
-    color: $text-secondary-color;
     list-style-type: none;
+  }
+
+  &__list-item {
+    text-decoration: none;
+    color: $text-secondary-color;
   }
 }
 

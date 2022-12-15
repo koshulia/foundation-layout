@@ -91,6 +91,7 @@
   display: inline-block;
   height: 5px;
   width: 8px;
+  margin-bottom: 2px;
   margin-left: 11px;
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
 }
@@ -130,6 +131,8 @@
   font-weight: 700;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media (max-width: 1399px) {
   .action-button {
@@ -147,6 +150,8 @@
   font-weight: 700;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
 }
 @media (max-width: 1399px) {
   .learn-more-btn {
@@ -280,8 +285,11 @@
   margin-top: 18px;
   font-size: 18px;
   line-height: 30px;
-  color: rgba(43, 41, 45, 0.6);
   list-style-type: none;
+}
+.nav-links__list-item {
+  text-decoration: none;
+  color: rgba(43, 41, 45, 0.6);
 }
 
 .footer-links {
@@ -365,7 +373,7 @@
     display: flex;
     width: 1140px;
     margin: auto;
-    margin-top: 84px;
+    margin-top: 76px;
     padding-bottom: 77px;
   }
 }
@@ -435,6 +443,7 @@
     width: 796px;
     height: 448px;
     margin-left: auto;
+    margin-bottom: 0px;
   }
 }
 
@@ -490,7 +499,7 @@
     width: 1140px;
     margin: auto;
     padding-top: 30px;
-    padding-bottom: 106px;
+    padding-bottom: 30px;
   }
 }
 .customers__row {
@@ -749,13 +758,13 @@
   margin-top: 40px;
   font-size: 18px;
   line-height: 13px;
-  text-align: center;
   background: #fff;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
 }
 .order__email::placeholder {
   color: #2b292d;
+  padding-left: 15px;
 }
 @media (min-width: 1400px) {
   .order__email {
