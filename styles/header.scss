@@ -1,5 +1,5 @@
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $color-peach;
 
   @include for-large-up {
     padding-top: 39px;
@@ -35,7 +35,7 @@
     height: 100%;
     margin-left: auto;
     border: none;
-    border-left: 1px solid #00000026;
+    border-left: 1px solid $color-grey;
     background: transparent;
 
     @include for-large-up {

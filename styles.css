@@ -392,7 +392,7 @@
   font-weight: 700;
   font-size: 50px;
   line-height: 50px;
-  letter-spacing: -0.3125px;
+  letter-spacing: -0.3px;
 }
 @media (min-width: 1400px) {
   .headline__title {
@@ -538,32 +538,9 @@
   }
 }
 
-/*.features {
-  width: 1140px;
-  margin: auto;
-  display: flex;
-}
-
-.features__subtitle {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 34px;
-  color: $text-color-green;
-}
-
-.features__title {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 56px;
-  letter-spacing: -0.5px;
-}
-
-.features__description {
-} */
 .audience {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px 15px;
   background-color: rgba(0, 161, 198, 0.0666666667);
 }
 @media (min-width: 1400px) {
@@ -595,7 +572,7 @@
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  letter-spacing: -0.357143px;
+  letter-spacing: -0.4px;
 }
 @media (min-width: 1400px) {
   .audience__big-title {
@@ -756,15 +733,15 @@
   height: 48px;
   width: 100%;
   margin-top: 40px;
+  padding-left: 15px;
   font-size: 18px;
   line-height: 13px;
   background: #fff;
-  border: 1px solid rgba(43, 41, 45, 0.2);
+  border: 1px solid #2b292d;
   border-radius: 2px;
 }
 .order__email::placeholder {
   color: #2b292d;
-  padding-left: 15px;
 }
 @media (min-width: 1400px) {
   .order__email {
